@@ -1,10 +1,10 @@
 <h3>Todo #<%= params[:id] %></h3>
-<h1>Workshop Todo List </h1>
+<h1>Cupcake Couture</h1>
 <div class="card">
  <input type="checkbox" name=""/>
- <h2><%= @todo_description %></h2>
-<span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo_pomodoro_estimate %> Pomodoros</span>
- <a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
+ <h2><%= @todo.description %></h2>
+<span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo.pomodoro_estimate %>Quantity</span>
+ <a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit Flavor</a>
  <a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">Delete</a>
- <a href="/" class="simple-link">Go back...</a>
+ <a href="/" class="simple-link">Go back</a>
 </div>
