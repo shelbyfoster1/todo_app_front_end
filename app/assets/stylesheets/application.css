@@ -13,31 +13,34 @@
  *= require_tree .
  *= require_self
  */
-ul{
-  list-style: none;
-  font-size: 20px;
+ body{
+  background-color:#a586a5;
+ font-family: 'Arima Madurai', cursive;
+   /*background-image:url(http://www.fun-lover.com/graphic-shop/Misc/images/Frosting/GlitterSpill1.png);*/
+   font-size: 30px;
 }
-li{
-  margin-bottom: 10px;
-  padding: 5px;
+
+
+#logo{
+ width: 350px;
 }
-li:hover{
-  background-color: #E1F5FE;
-  border-radius: 3px;
+
+
+img{
+  width:300px;
+  padding:20px; 
 }
-span{
-  font-size: 14px;
-  padding: 5px 10px 5px 10px;
+
+h5{
+ color:white;
+ font-family:Times New Roman;
 }
-.completed-todo{
-  text-decoration: line-through;
+
+a{
+ color:#006a91;
 }
-#new-todo-block{
-  width: 60%;
-  margin: 20px auto 0px auto;
+
 }
-#add-new-todo-button{
-  display: block;
-  background-color: #03A9F4;
-  margin-top: 10px;
-}
+  
+  
+
